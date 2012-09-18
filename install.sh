@@ -34,3 +34,4 @@ ln -sf $BASE_FOLDER/$MUMMER_VERSION/gaps /usr/bin/
 ln -sf $BASE_FOLDER/$MUMMER_VERSION/nucmer /usr/bin/
 ln -sf $BASE_FOLDER/$MUMMER_VERSION/mgaps /usr/bin/
 ln -sf $BASE_FOLDER/$MUMMER_VERSION/show-* /usr/bin/
+ln -sf $BASE_FOLDER/$MUMMER_VERSION/mapview /usr/bin/

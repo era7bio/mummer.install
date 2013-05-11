@@ -10,7 +10,7 @@ cd /opt/mummer
 BASE_FOLDER=/opt/mummer
 MUMMER_VERSION="MUMmer3.23"
 # prereqs
-yum -y install gnuplot transfig make perl gcc47 sed tcsh gawk binutils
+yum -y install gnuplot transfig make perl gcc47 gcc-c++ sed tcsh gawk binutils
 # download mummer
 wget http://resources.ohnosequences.com/MUMmer/$MUMMER_VERSION.tar.gz
 tar -xzf $MUMMER_VERSION.tar.gz
